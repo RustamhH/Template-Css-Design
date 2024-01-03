@@ -1,0 +1,794 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo&family=Montserrat:wght@500&family=Source+Sans+3:wght@500&display=swap');
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+header
+{
+    background-color: #1a1a1a;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+
+.header-section-1
+{
+    position: relative;
+    width: 60%;
+ 
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+
+.header-section-1 .b-1
+{
+    position: absolute;
+    left: 0;
+}
+
+.header-section-1 .b-2
+{
+    position: absolute;
+    right: 0;
+}
+
+
+
+
+.header-section-2 .p-1, .p-2
+{
+    color: white;
+    text-align: center;
+}
+
+
+.header-section-2 .p-1
+{
+    font-size: 1.5em;
+    letter-spacing: 16px;
+    text-transform: uppercase;
+}
+
+.header-section-2 .p-2
+{
+    margin-top: 38px;
+    letter-spacing: 7px;
+}
+
+
+.header-section-2
+{
+    margin-top: 280px;
+    text-align: center;
+}
+
+
+.header-section-2 a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    background-color: #ffe500;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 0.8em;
+
+    display: inline-block;
+  
+    padding: 20px 35px;
+    margin-top: 50px;
+
+    margin-bottom: 250px;
+}
+
+
+
+.page-1{
+    position: relative;
+    margin: 0 auto;
+    padding-top: 85px;
+    height: 640px;
+    text-align: center;
+}
+
+.mountainimage{
+    padding-bottom: 100px;
+
+}
+
+
+
+.page-1 .p-1{
+    display: inline-block;
+    width: 585px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #707070;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.page-2{
+    background-color: #f4f4f4;
+    position: relative;
+    margin: 0 auto;
+    padding-top: 85px;
+    height: 90%;
+    text-align: center;
+}
+
+
+.page-2 .p-1{
+    font-size: 20px;
+    letter-spacing: 16px;
+    color: #1b1b1b;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+
+.page-2 .p-2{
+    display: inline-block;
+    width: 750px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #707070;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.container
+{
+    padding: 10px 10%;
+}
+
+
+.page-2 .container  .box-container-1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 25px;
+    padding-top: 90px;
+}
+
+.page-2 .container .box-container-1 .box
+{
+    width: 270px;
+    height: 350px;
+    padding-top: 30px;
+    background-color: #ffffff;
+    filter: drop-shadow(0 0 5px rgba(37,39,42,0.1));
+}
+
+
+.page-2 .container .box-container-1 .box .p-2{
+    width: 221px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #707070;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
+.page-2 .container .box-container-1 .box .p-1{
+    font-size: 18px;
+    letter-spacing: 6px;
+    line-height: 24px;
+    color: #1b1b1b;
+    text-align: center;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+.page-2 .container .box-container-1 .box img{
+    width: auto;
+    height: 50px;                                                                                                                                                                                                                                                                                                                                                   
+}
+
+
+.page-2 .container .box-container-2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.page-2 .container .box-container-2 .box{
+    width: 270px;
+    height: 195px;
+    background-color: white;
+    padding-top: 0px;
+}
+
+
+.page-2 .container .box-container-2 .box .p-1{
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    font-weight: 700;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+
+.progress-container {
+    margin-left: 15px;
+    width: 247px;
+    height: 5px;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+
+.progress-container .progress-bar{
+    height: 5px;
+    background-color: #ffe500;
+}
+
+.progress-container #ps {
+    width: 221px;
+}
+.progress-container #ai {
+    width: 243px;
+}
+.progress-container #id {
+    width: 175px;
+}
+.progress-container #ui {
+    width: 239px;
+}
+.progress-container #ux {
+    width: 213px;
+}
+.progress-container #responsive {
+    width: 225px;
+}
+.progress-container #html {
+    width: 242px;
+}
+.progress-container #css {
+    width: 241px;
+}
+.progress-container #js {
+    width: 184px;
+}
+.progress-container #c {
+    width: 196px;
+}
+.progress-container #java {
+    width: 205px;
+}
+.progress-container #swift {
+    width: 192px;
+}
+
+
+
+
+
+.page-3{
+    margin: 0 auto;
+    height: 22%;
+    background-color: #1a1a1a;
+    text-align: center;
+}
+ 
+.page-3 .box-container-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 42px;
+    padding-top: 42px;
+}
+
+.page-3 .box-container-1 .box{
+    width: 270px;
+    height: 70px;
+    background-color: #ffffff;
+}
+ 
+.page-3 .box-container-1 .box .number{
+    font-size: 15px;
+    letter-spacing: 6px;
+    line-height: 24px;
+    color: #1b1b1b;
+    font-weight: 700;
+    font-family: 'Montserrat';
+    margin-top: 10px;
+    text-align: center;
+}
+ 
+.page-3 .box-container-1 .box .text{
+    font-size: 13px;
+    letter-spacing: 3px;
+    line-height: 24px;
+    color: #1b1b1b;
+    font-weight: 500;
+    font-family: 'Raleway';
+}
+
+.page-4{
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+
+.page-4 .p-1{
+    font-size: 20px;
+    letter-spacing: 16px;
+    color: #1b1b1b;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+
+.page-4 .p-2{
+    display: inline-block;
+    width: 750px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #707070;
+    font-weight: 400;
+}
+
+
+
+
+
+
+.page-4 .portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+    margin-top: 85px;
+}
+
+
+
+.page-4 .portfolio-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #6f6f6f;
+    border-bottom: 1px solid #6f6f6f;
+    width: 470px;
+    height: 65px;
+    gap: 200px;
+}
+
+.page-4 .portfolio-body .p {
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    font-weight: 700;
+}
+
+.page-4 .box-container-1{
+    margin-top: 85px;
+    margin-bottom: 85px;
+    height: 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-4 .box-container-1 div{
+    width: 320px;
+}
+
+.page-4 .box-container-1 .greyitem{
+    background-color: #f4f4f4;
+}
+.page-4 .box-container-1 #specialitem{
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-4 .box-container-1 .blackitem{
+    background-color: #1a1a1a;
+}
+
+.page-4 .box-container-1 #specialitem .yellowitem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 236px;
+    height: 260px;
+    background-color: #ffe500;
+}
+
+.page-4 .box-container-1 #specialitem .whiteitem{
+    width: 300px;
+    height: 190px;
+    background-color: #ffffff;
+}
+
+.page-4 .box-container-1 #specialitem .whiteitem .p-1{
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #1b1b1b;
+    font-weight: 700;
+}
+.page-4 .box-container-1 #specialitem .whiteitem .p-2{
+
+    width: 246px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #707070;
+    font-weight: 400;
+    text-align: center;
+}
+
+.page-4 a{
+    text-decoration: none;
+    background-color: #ffe500;
+    font-size: 10px;
+    letter-spacing: 4px;
+    color: #1b1b1b;
+    font-weight: bold;
+    padding: 20px 35px;
+}
+
+.page-5{
+    margin: 0 auto;
+    height: 35%;
+    background-color: #1a1a1a;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-5 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 369px;
+    height: 77px;
+    border: 1px solid #ffe500;
+    text-decoration: none;
+    font-size: 15px;
+    letter-spacing: 12px;
+    color: #ffe600;
+    font-weight: 400;
+    margin-top: 190px;
+    margin-bottom: 190px;
+}
+
+
+
+
+.page-6{
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding-top: 85px;
+    position: relative;
+}
+
+.page-6 .p-1{
+    font-size: 20px;
+    letter-spacing: 16px;
+    color: #1b1b1b;
+    font-weight: 400;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+
+.page-6 .p-2{
+    display: inline-block;
+    width: 750px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    line-height: 32px;
+    color: #707070;
+    font-weight: 400;
+}
+
+
+
+.page-6 .container  .box-container-1
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 25px;
+    padding-top: 90px;
+}
+
+.page-6 .container .box-container-1 .box
+{
+    width: 270px;
+    height: 515px;
+    padding-top: 30px;
+    filter: drop-shadow(0 0 5px rgba(37,39,42,0.1));
+    margin-bottom: 145px;
+}
+
+
+
+.page-6 .container .box-container-1 .box .white{
+    width: 270px;
+    height: 165px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-6 .container .box-container-1 .box .yellow{
+    width: 270px;
+    height: 60px;
+    background-color: #d1bc05;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.page-6 .container .box-container-1 .box .black{
+    width: 270px;
+    height: 290px;
+    background-color: #1a1a1a;
+}
+
+
+
+.page-6 .container .box-container-1 .box .white .p-2{
+    width: 221px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #707070;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.page-6 .container .box-container-1 .box .yellow .p-1{
+    font-size: 15px;
+    letter-spacing: 6px;
+    line-height: 24px;
+    color: #1b1b1b;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.page-6 .left{
+    display: flex;
+    gap: 105px;
+    justify-content: center;
+    margin-left: -65px;
+    margin-bottom: 80px;
+}
+
+
+
+.page-6 .left .left-black{
+    width: 570px;
+    height: 375px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-6 .left .left-black p{
+    width: 420px;
+    height: 264px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.page-6 .left .left-quote .sentence{
+    width: 420px;
+    height: 71px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #707070;
+    font-weight: 400;
+    text-align: center;
+}
+.page-6 .left .left-quote .utterer{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #1b1b1b;
+    font-weight: 600;
+    font-style: italic;
+    text-align: right;
+}
+
+
+.page-6 .right{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.page-6 .right .right-black{
+    width: 570px;
+    height: 375px;
+    background-color: #1a1a1a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -210px;
+}
+.page-6 .right .right-black p{
+    width: 420px;
+    height: 264px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.page-6 .right .right-quote .sentence{
+    width: 420px;
+    height: 71px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #707070;
+    font-weight: 400;
+    text-align: center;
+    margin-right: 75px;
+    margin-left: 105px;
+}
+.page-6 .right .right-quote .utterer{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #1b1b1b;
+    font-weight: 600;
+    font-style: italic;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.middle-section {
+    position: relative;
+    height: 620px;
+    background: linear-gradient(to bottom, transparent 0%, transparent 32%, #ffe500 32%, #ffe500 64%,transparent 64%, transparent 100%);
+}
+
+footer{
+    margin-top: 240px;
+    padding-top: 90px;
+    background-color: #1a1a1a;
+    height:385px;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+footer .section-1 .p-1 {
+    width: 368px;
+    height: 74px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 35px;
+}
+footer .section-1 .p-2 {
+    width: 368px;
+    height: 74px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 35px;
+}
+
+
+footer .section-1 .p-3 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+footer .section-1 #yellowword {
+    margin-top: 65px;
+}
+.highlight{
+    color: #d1bc05;
+}
+
+
+footer .section-2{
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+footer .section-3{
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+footer .section-2 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #ffffff;
+    display: block;
+    margin-bottom: 15px;
+}
+
+footer .section-3{
+    margin-left: 130px;
+}
+
+footer .section-3 .p-1{
+    font-size: 12px;
+    letter-spacing: 1px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+    width: 335px;
+}
+
+footer .section-3 a{
+    text-decoration: none;
+    width: 371px;
+    height: 45px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top:15px;
+    padding-bottom:15px;
+    border-radius: 20px;
+    background-color: #ffe500;
+    font-weight: 700;
+    color: #1a1a1a;
+}
